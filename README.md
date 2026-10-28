@@ -1,4 +1,4 @@
-# OmniSave — All-in-One Social Media Video & Audio Downloader
+# HoqueSave — All-in-One Social Media Video & Audio Downloader
 
 A full-stack Social Media Video & Audio Downloader built with **Next.js (App Router)**, **React**, **Tailwind CSS**, and **Lucide Icons** on the frontend, connected seamlessly to a cloud **FastAPI + yt-dlp + FFmpeg** backend (`https://my-video-downloader-api-8ftr.onrender.com`).
 

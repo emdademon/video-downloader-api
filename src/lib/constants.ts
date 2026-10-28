@@ -182,7 +182,7 @@ export const FAQ_ITEMS = [
   {
     question: 'Which social media platforms are supported?',
     answer:
-      'OmniSave natively supports YouTube (videos & Shorts), Facebook (Watch & Reels), Instagram (Reels, Posts & IGTV), Pinterest (Video & Idea Pins), and LinkedIn native video posts — powered by yt-dlp and FFmpeg on our cloud extraction engine.',
+      'HoqueSave natively supports YouTube (videos & Shorts), Facebook (Watch & Reels), Instagram (Reels, Posts & IGTV), Pinterest (Video & Idea Pins), and LinkedIn native video posts — powered by yt-dlp and FFmpeg on our cloud extraction engine.',
   },
   {
     question: 'Why might the first fetch take 15–30 seconds?',

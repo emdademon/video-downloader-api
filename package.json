@@ -1,8 +1,8 @@
 {
-  "name": "social-media-video-downloader",
+  "name": "hoquesave-video-downloader",
   "version": "1.0.0",
   "private": true,
-  "description": "All-in-One Social Media Video & Audio Downloader built with Next.js App Router, React, Tailwind CSS, and Lucide Icons",
+  "description": "HoqueSave — All-in-One Social Media Video & Audio Downloader built with Next.js App Router, React, Tailwind CSS, and Lucide Icons",
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0 --port 3000",
     "build": "next build",

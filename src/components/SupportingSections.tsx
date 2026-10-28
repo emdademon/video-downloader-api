@@ -15,7 +15,7 @@ import {
   Trash2,
   Zap,
 } from 'lucide-react';
-import { API_BASE_URL, FAQ_ITEMS, PLATFORMS } from '@/lib/constants';
+import { FAQ_ITEMS, PLATFORMS } from '@/lib/constants';
 import { PlatformId, RecentMediaItem } from '@/lib/types';
 import { formatDuration, resolvePlatformMeta } from '@/lib/utils';
 import { PlatformIcon } from './PlatformIcons';
@@ -315,12 +315,12 @@ export function SupportingSections({
                   <ArrowDownToLine className="h-4 w-4 text-white" />
                 </div>
                 <span className="text-base font-bold text-white">
-                  Omni<span className="text-cyan-400">Save</span>
+                  Hoque<span className="text-cyan-400">Save</span>
                 </span>
               </div>
               <p className="mt-2 max-w-md text-xs leading-relaxed text-slate-400">
-                All-in-One Social Media Video &amp; Audio Downloader connected
-                to cloud FastAPI + yt-dlp + FFmpeg stream processing.
+                All-in-One Social Media Video &amp; Audio Downloader powered by
+                high-speed cloud stream extraction and FFmpeg processing.
               </p>
             </div>
 
@@ -339,13 +339,16 @@ export function SupportingSections({
             </div>
           </div>
 
-          <div className="mt-8 flex flex-col justify-between gap-3 border-t border-white/[0.06] pt-6 text-xs text-slate-500 sm:flex-row sm:items-center">
+          <div className="mt-8 flex flex-col justify-between gap-3 border-t border-white/[0.06] pt-6 text-xs text-slate-400 sm:flex-row sm:items-center">
             <span>
-              &copy; {new Date().getFullYear()} OmniSave Media Studio. For
+              &copy; {new Date().getFullYear()} HoqueSave Media Studio. For
               personal &amp; authorized content archiving only.
             </span>
-            <span className="font-mono text-[11px] text-slate-500">
-              API: {API_BASE_URL.replace(/^https?:\/\//, '')}
+            <span className="font-medium text-slate-300 sm:text-right">
+              Developed by{' '}
+              <span className="font-semibold text-white">
+                Md. Emdadul Hoque
+              </span>
             </span>
           </div>
         </div>

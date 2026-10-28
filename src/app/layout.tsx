@@ -4,10 +4,21 @@ import '@fontsource-variable/jetbrains-mono';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'OmniSave — All-in-One Social Media Video & Audio Downloader',
+  title: 'HoqueSave — All-in-One Social Media Video & Audio Downloader',
+  applicationName: 'HoqueSave',
   description:
-    'Download 4K/1080p MP4, MOV & MKV videos and MP3, WAV, AAC & M4A audio from YouTube, Facebook, Instagram, Pinterest, and LinkedIn.',
+    'Download 4K/1080p MP4, MOV & MKV videos and MP3, WAV, AAC & M4A audio from YouTube, Facebook, Instagram, Pinterest, and LinkedIn with HoqueSave.',
+  authors: [{ name: 'Md. Emdadul Hoque' }],
+  creator: 'Md. Emdadul Hoque',
+  openGraph: {
+    title: 'HoqueSave — All-in-One Social Media Video & Audio Downloader',
+    siteName: 'HoqueSave',
+    description:
+      'Download 4K/1080p MP4, MOV & MKV videos and MP3, WAV, AAC & M4A audio from YouTube, Facebook, Instagram, Pinterest, and LinkedIn.',
+    type: 'website',
+  },
   keywords: [
+    'HoqueSave',
     'video downloader',
     'audio downloader',
     'YouTube downloader',

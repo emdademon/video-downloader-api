@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { RecentMediaItem, VideoInfoResponse } from '@/lib/types';
 
-const STORAGE_KEY = 'omnisave_recent_media_v1';
+const STORAGE_KEY = 'hoquesave_recent_media_v1';
 const MAX_ITEMS = 6;
 
 export function useRecentDownloads() {

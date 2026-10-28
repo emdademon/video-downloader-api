@@ -62,7 +62,7 @@ export function Navbar({ apiStatus }: NavbarProps) {
           </div>
           <div className="flex flex-col">
             <span className="text-base font-bold tracking-tight text-white sm:text-lg">
-              Omni<span className="bg-gradient-to-r from-rose-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">Save</span>
+              Hoque<span className="bg-gradient-to-r from-rose-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent">Save</span>
             </span>
             <span className="text-[11px] font-medium tracking-wide text-slate-400">
               All-in-One Media Studio
